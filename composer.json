@@ -1,5 +1,5 @@
 {
-    "name": "mmxca/BitmessagePlugin",
+    "name": "mmxca/bitmessage-plugin",
     "description": "BitMessagePlugin plugin for CakePHP3",
     "type": "cakephp-plugin",
     "require": {
