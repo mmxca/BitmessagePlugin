@@ -30,7 +30,7 @@ Plugin::load('BitmessagePlugin', ['bootstrap' => false, 'routes' => true]);
 public $components = ['BitmessagePlugin.Bitmessage'];
 ```
 
-### Add component to your Controller
+### Add configuration to config/app.php
 
 ```
     'BitMessage' => [
@@ -47,7 +47,6 @@ public $components = ['BitmessagePlugin.Bitmessage'];
 
 ```
         $this->Bitmessage->initialize();
-        $this->Bitmessage->newAddress("A simple test", $eighteenByteRipe = false, $totalDifficulty = 1, $smallMessageDifficulty = 1);
         $this->Bitmessage->setStrip(true);
         
         //to, from, subject, message
